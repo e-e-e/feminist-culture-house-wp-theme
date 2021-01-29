@@ -1,4 +1,4 @@
-<h1 align="right"><img alt="Logo" src="./FCH-logo.png" width="400" height="381"/></h1>
+<h1 align="right"><img alt="Logo" src="./FCH-logo.png" width="400" height="auto"/></h1>
 
 # FCH Wordpress theme
 
