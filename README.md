@@ -10,5 +10,3 @@ This theme was originally adapted by Leah Beeferman from the Wordpress Twenty Fi
 
 FCH acknowledges artist Leah Beeferman’s thoughtful web design, and wishes to thank her for helping to shape 
 their online presence, and collectively learn about accessible websites. 
-
-FCH agrees to maintain the integrity of the website as envisioned by the artist, and will not change it without consulting the artist. "
