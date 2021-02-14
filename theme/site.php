@@ -10,16 +10,16 @@ get_header(); ?>
     <!-- START header -->
     <div id="header">
         <div id="fchheaderleft">
-            <a href="http://www.feministculturehouse.org">
+            <a href="<?php echo get_site_url() ?>">
                 <div id="fchlogotype">Feminist<br/>Culture<br/>House</div>
             </a>
         </div>
         <div id="fchheaderright" role="banner">
-            <a href="http://www.feministculturehouse.org"><img src="http://www.feministculturehouse.org/FCH-banner.png"
+            <a href="http://www.feministculturehouse.org"><img src="https://www.feministculturehouse.org/FCH-banner.png"
                                                                alt="FCH banner"></a>
         </div>
         <div id="fchheaderrightmobile" role="banner">
-            <a href="http://www.feministculturehouse.org"><img src="http://www.feministculturehouse.org/FCH.png"
+            <a href="http://www.feministculturehouse.org"><img src="https://www.feministculturehouse.org/FCH.png"
                                                                alt="FCH banner"></a>
         </div>
     </div><!-- END header -->
