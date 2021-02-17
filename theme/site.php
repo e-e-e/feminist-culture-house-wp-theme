@@ -64,17 +64,16 @@ get_header(); ?>
                 <?php
                 wp_nav_menu(array('menu' => 'main_menu', 'container_id' => 'navitems'));
                 ?>
-
+                <div class="nav-email-signup">
                 <!-- Begin Mailchimp Signup Form -->
                 <div id="mc_embed_signup" role="form">
                     <form action="https://gmail.us20.list-manage.com/subscribe/post?u=ab3af42f3c21ed02a7a8e4321&amp;id=4ac5facd20"
                           method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form"
                           class="validate" target="_blank" novalidate>
                         <div id="mc_embed_signup_scroll">
+                            <div id="joinour">Join our mailing list!</div>
                             <div class="mc-field-group">
                                 <!--	<label for="mce-EMAIL">Email</label> -->
-
-                                <div id="joinour">Join our mailing list!</div>
                                 <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL2"
                                        aria-label="Enter your email address here">
                                 <input type="submit" value="&#10004;" name="Join" id="mc-embedded-subscribe2"
@@ -92,7 +91,7 @@ get_header(); ?>
                 </div>
 
                 <!--End mc_embed_signup-->
-
+                </div>
 
                 <br class="clear: both;"/>
             </div>

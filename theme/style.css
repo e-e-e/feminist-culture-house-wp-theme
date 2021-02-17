@@ -276,6 +276,17 @@ footer {
 
 /* ===================== REGULARNAV ===================== */
 
+.nav-email-signup .mc_embed_signup_scroll {
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-email-signup .mc_field-group {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
 #mobilenav {
     display: none;
 }
