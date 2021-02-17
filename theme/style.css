@@ -362,9 +362,10 @@ h1 {
     border-bottom: 0;
 }
 
-#navitems li a:hover, #navitems li a:visited:hover {
+#navitems li a:hover, #navitems li a:visited:hover, #navitems li .current_page_item a {
     text-decoration: none;
-    border-bottom: 2px solid #fff;
+    color: #fe8c2d;
+    border-bottom: 2px solid #fe8c2d;
 }
 
 #navitems li a.activelink {
