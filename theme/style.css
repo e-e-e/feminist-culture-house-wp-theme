@@ -70,6 +70,25 @@ a:visited {
     color: #ffb270;
 }
 
+figure {
+    margin: 1rem 0;
+}
+
+figure.wp-caption {
+    max-width: 100%;
+    font-family: 'Palanquin', sans-serif;
+    font-style: italic;
+    font-size: 1rem;
+    line-height: 1.2;
+    color: #fff;
+
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+}
 
 /* ===================== FADE-IN ANIMATION ===================== */
 
@@ -462,11 +481,11 @@ h1 {
     line-height: 19pt;
 }
 
-#rightcol img {
-    width: 615px;
-    height: auto;
-    margin-bottom: 40px;
-}
+/*#rightcol img {*/
+/*    width: 615px;*/
+/*    height: auto;*/
+/*    margin-bottom: 40px;*/
+/*}*/
 
 
 .pagetitle, h1 {

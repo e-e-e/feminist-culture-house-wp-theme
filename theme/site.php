@@ -60,7 +60,6 @@ get_header(); ?>
         <div id="homepagecontainer">
             <!-- START nav left column -->
             <div id="leftcol" role="conatinsnavigation" aria-label="contains main navigation">
-
                 <?php
                 wp_nav_menu(array('menu' => 'main_menu', 'container_id' => 'navitems'));
                 ?>
