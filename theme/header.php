@@ -12,11 +12,11 @@
 <html <?php language_attributes(); ?> class="no-js">
 <head>
 <meta charset="<?php bloginfo( 'charset' ); ?>">
-<meta name="viewport" content="initial-scale=1,user-scalable=no,maximum-scale=1,width=device-width">	
+<meta name="viewport" content="initial-scale=1,user-scalable=no,maximum-scale=1,width=device-width">
 
 <link href="https://fonts.googleapis.com/css?family=Yatra+One&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Palanquin:400,600&display=swap" rel="stylesheet">
-<link href="http://www.feministculturehouse.org/mobilemenu.css" rel="stylesheet">	
+<link href="https://www.feministculturehouse.org/mobilemenu.css" rel="stylesheet">
 
 <link rel="profile" href="http://gmpg.org/xfn/11">
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
@@ -26,7 +26,7 @@
 <script>(function(){document.documentElement.className='js'})();</script>
 
 <!-- jQuery library (served from Google) -->
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 
 <?php if(is_page( '486' )){ ?>
    <style type="text/css">
