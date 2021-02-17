@@ -687,13 +687,6 @@ hr {
     width: device-width;
 }
 
-/* ===================== DESKTOPS @ NARROW ===================== */
-
-@media only screen
-and (max-width: 710px) {
-
-}
-
 /* ===================== IPAD ===================== */
 
 @media only screen
@@ -910,79 +903,79 @@ and (max-device-width: 1024px) {
 /* ===================== IPAD LANDSCAPE ===================== */
 
 
-@media only screen
-and (min-device-width: 768px)
-and (max-device-width: 1024px)
-and (orientation: landscape ) {
+/*@media only screen*/
+/*and (min-device-width: 768px)*/
+/*and (max-device-width: 1024px)*/
+/*and (orientation: landscape ) {*/
 
 
-    #pagefooter {
-        /*	height: 210px; */
-        height: 260px;
-        margin-top: 100px;
-        margin-bottom: 85px;
-    }
+/*    #pagefooter {*/
+/*        !*	height: 210px; *!*/
+/*        height: 260px;*/
+/*        margin-top: 100px;*/
+/*        margin-bottom: 85px;*/
+/*    }*/
 
-    #footercol1 {
-        width: 30%;
-        font-family: 'Palanquin', sans-serif;
-        font-size: 13pt;
-        line-height: 16pt;
-        color: #fff;
-        margin-right: 5%;
-    }
+/*    #footercol1 {*/
+/*        width: 30%;*/
+/*        font-family: 'Palanquin', sans-serif;*/
+/*        font-size: 13pt;*/
+/*        line-height: 16pt;*/
+/*        color: #fff;*/
+/*        margin-right: 5%;*/
+/*    }*/
 
-    #footercol2 {
-        float: left;
-        width: 30%;
-        margin-right: 5%;
-        text-align: center;
-    }
+/*    #footercol2 {*/
+/*        float: left;*/
+/*        width: 30%;*/
+/*        margin-right: 5%;*/
+/*        text-align: center;*/
+/*    }*/
 
-    #footercol2 img {
-        width: 80%;
-        height: auto;
-        text-align: center;
-    }
+/*    #footercol2 img {*/
+/*        width: 80%;*/
+/*        height: auto;*/
+/*        text-align: center;*/
+/*    }*/
 
-    #footercol3 {
-        float: left;
-        /*	padding-top: 13px; */
-        /* LISA START */
-        padding-top: 40px;
-        /* LISA END */
-        width: 30%;
-        text-align: center;
-    }
+/*    #footercol3 {*/
+/*        float: left;*/
+/*        !*	padding-top: 13px; *!*/
+/*        !* LISA START *!*/
+/*        padding-top: 40px;*/
+/*        !* LISA END *!*/
+/*        width: 30%;*/
+/*        text-align: center;*/
+/*    }*/
 
-    /* LISA START */
-    #footercol4 {
-        float: left;
-        width: 23%;
-        text-align: center;
-    }
+/*    !* LISA START *!*/
+/*    #footercol4 {*/
+/*        float: left;*/
+/*        width: 23%;*/
+/*        text-align: center;*/
+/*    }*/
 
-    /* LISA END */
-    #DONATE {
-        width: 100%;
-        height: auto;
-    }
+/*    !* LISA END *!*/
+/*    #DONATE {*/
+/*        width: 100%;*/
+/*        height: auto;*/
+/*    }*/
 
-    #menu {
-        right: -450px;
-        overflow-y: auto;
-    }
+/*    #menu {*/
+/*        right: -450px;*/
+/*        overflow-y: auto;*/
+/*    }*/
 
-}
+/*}*/
 
 
-/* ===================== Safari 6.1-8.0 (6.1+) ===================== */
+/*!* ===================== Safari 6.1-8.0 (6.1+) ===================== *!*/
 
-@media screen and (min-color-index: 0)
-and(-webkit-min-device-pixel-ratio: 0)
-and (max-width: 450px) {
+/*@media screen and (min-color-index: 0)*/
+/*and(-webkit-min-device-pixel-ratio: 0)*/
+/*and (max-width: 450px) {*/
 
-}
+/*}*/
 
 /* ===================== IPHONE ===================== */
 
@@ -1288,59 +1281,59 @@ and (max-device-width: 736px) {
 
 }
 
-/* ===================== IPHONE ===================== */
-/* LANDSCAPE */
+/*!* ===================== IPHONE ===================== *!*/
+/*!* LANDSCAPE *!*/
 
-@media only screen
-and (min-device-width: 320px)
-and (max-device-width: 736px)
-and (orientation: landscape ) {
+/*@media only screen*/
+/*and (min-device-width: 320px)*/
+/*and (max-device-width: 736px)*/
+/*and (orientation: landscape ) {*/
 
-    #fchheaderleft {
-        padding-left: 5vw;
-        width: 35vw;
-        float: left;
-        height: 170px;
-        margin: 0;
-        padding-right: 0;
-    }
+/*    #fchheaderleft {*/
+/*        padding-left: 5vw;*/
+/*        width: 35vw;*/
+/*        float: left;*/
+/*        height: 170px;*/
+/*        margin: 0;*/
+/*        padding-right: 0;*/
+/*    }*/
 
-    #fchheaderrightmobile {
-        display: block;
-        margin-right: 6vw;
-        height: 170px;
-        width: 55vw;
-        padding-top: 30px;
-        float: left;
-        margin-bottom: 40px;
-    }
+/*    #fchheaderrightmobile {*/
+/*        display: block;*/
+/*        margin-right: 6vw;*/
+/*        height: 170px;*/
+/*        width: 55vw;*/
+/*        padding-top: 30px;*/
+/*        float: left;*/
+/*        margin-bottom: 40px;*/
+/*    }*/
 
-    #fchheaderrightmobile img {
-        width: 50vw;
-        float: none;
-        padding-right: 5vw;
-        height: auto;
-    }
+/*    #fchheaderrightmobile img {*/
+/*        width: 50vw;*/
+/*        float: none;*/
+/*        padding-right: 5vw;*/
+/*        height: auto;*/
+/*    }*/
 
-    body {
-        overflow-x: hidden;
-        padding-left: 0vw;
-    }
+/*    body {*/
+/*        overflow-x: hidden;*/
+/*        padding-left: 0vw;*/
+/*    }*/
 
 
-    #pagefooter {
-        /* height: 510px; */
-        height: 600px;
-    }
+/*    #pagefooter {*/
+/*        !* height: 510px; *!*/
+/*        height: 600px;*/
+/*    }*/
 
-    /* LISA START */
-    #footercol2 img {
-        width: 40vw;
-        /* LISA END */
-    }
+/*    !* LISA START *!*/
+/*    #footercol2 img {*/
+/*        width: 40vw;*/
+/*        !* LISA END *!*/
+/*    }*/
 
-    #menu {
-        right: -175px;
-        padding-top: 75px;
-    }
-}
+/*    #menu {*/
+/*        right: -175px;*/
+/*        padding-top: 75px;*/
+/*    }*/
+/*}*/
